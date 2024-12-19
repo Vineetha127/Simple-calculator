@@ -1,0 +1,38 @@
+#Calculator{
+    width:fit-content;
+    /* height:100px; */
+    border:5px solid black;
+    padding: 10px;
+    background-color:white;
+    /* transition: transform 2s ease; */
+    animation:  msg 8s infinite;
+    border-left-color: red;
+    border-top-color: yellow;
+    border-right-color: green;
+    border-bottom-color: blue;
+}
+
+@keyframes msg{
+    0%{
+        background-color:black;
+    }
+    75%{
+        background-color:whitesmoke;
+    }
+}
+button{
+    background-color: rgb(33, 30, 30);
+    color:white;
+}
+#firstbox{
+    font-size: 10px;
+    border:1px solid black;
+}
+#secondbox{
+    font-size: 10px;
+    border:1px solid black;
+}
+
+
+
+
